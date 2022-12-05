@@ -1,6 +1,6 @@
-
 # Resumo sobre a API:
 Para obter os resultados desejados você tera que utilizar ferramentas como o [Postman](https://www.postman.com/) ou o [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)  para o consumo dessa API.
+- Qualquer coisa o projeto também estará no replit: [@LucasSantos122](https://replit.com/@LucasSantos122/NewFlask#main.py)
 
 # Rotas
 As rotas foram definidas de maneira simples, foi utilizado o Replit para desenvolver a API, a partir daqui irei citar as rotas junto a seus métodos de requisição, para que seja possível trabalhar com elas:
@@ -43,11 +43,11 @@ Com `main.py` sendo o aquivo principal para as rotas que acabam chamando as fun�
 -----
 -----
 -----
-
 # Summary about the API:
 To get the desired results you will have to use tools like [Postman](https://www.postman.com/) or [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav. vscode-thunder-client) for consuming this API.
+- Anything the project will also be in the replit: [@LucasSantos122](https://replit.com/@LucasSantos122/NewFlask#main.py)
 
-## routes:
+# routes
 The routes were defined in a simple way, Replit was used to develop the API, from here I will quote the routes along with their request methods, so that it is possible to work with them:
 
 * NewFlask.lucassantos122.repl.co`/listar` METHOD = [GET]
@@ -61,28 +61,26 @@ The routes were defined in a simple way, Replit was used to develop the API, fro
 * NewFlask.lucassantos122.repl.co`/pesquisar/<ID_PEOPLE>` METHOD = [GET]
 >Some routes have parameters that must be passed by the body itself to carry out certain functions, the `/search` route, for example, needs a numeric parameter (integer) to find the **ID**, for example: `search /1200` .
 
-* NewFlask.lucassantos122.repl.co`/update` METHOD = [PUT]
+* NewFlask.lucassantos122.repl.co`/atualizar` METHOD = [PUT]
 >The `/update` route uses JSON communication as well as the registration route, its body:
 `{"id": "ID_USER", "name":"FIRST_NAME", "last name":"SECOND_NAME", "cpf":"CPF", "rg":"RG", "birth_date":"DD/MM /YYYY"}` The userid could also be passed in the route body.
 
-* NewFlask.lucassantos122.repl.co`/delete/<ID_PEOPLE>` METHOD = [DELETE]
+* NewFlask.lucassantos122.repl.co`/deletar/<ID_PEOPLE>` METHOD = [DELETE]
 >The `/delete/<ID_PEOPLE>` route also needs a valid **ID** passed in its body. To perform the delete action.
 
-## About the organization of the files:
+# About the organization of the files:
 The project was designed in a modular way to be easy to maintain from the bank to its functions for the routes. Dividing its structure into two main files (not counting the bank) being:
 * `main.py`
 * `functions.py`
 
 With `main.py` being the main file for the routes that end up calling the functions in the `function.py` file and connecting via the `get_database()` function.
 
------
------
------
-|Programmers|
-|--------------------|
-|Lucas Santos Campos|
+
+|🇧🇷 Programmers 🇧🇷 |
+|--------|
+| Lucas Santos Campos |
 |Eddie Mauricio Silva dos Santos|
 |Rodrigo Ferreira Pereira|
 |Sergio Lima Borges|
-|Yuri Mathaus Cavalcante Ferreira|
+| Yuri Mathhaus Cavalcante Ferreira |
 |Nathalia Daniel da Silva|
