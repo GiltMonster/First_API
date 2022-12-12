@@ -34,12 +34,6 @@ Com `main.py` sendo o aquivo principal para as rotas que acabam chamando as fun�
 |Programadores|
 |--------------------|
 |Lucas Santos Campos|
-|Eddie Mauricio Silva dos Santos|
-|Rodrigo Ferreira Pereira|
-|Sergio Lima Borges|
-|Yuri Mathaus Cavalcante Ferreira|
-|Nathalia Daniel da Silva|
-
 -----
 -----
 -----
@@ -79,8 +73,3 @@ With `main.py` being the main file for the routes that end up calling the functi
 |🇧🇷 Programmers 🇧🇷 |
 |--------|
 | Lucas Santos Campos |
-|Eddie Mauricio Silva dos Santos|
-|Rodrigo Ferreira Pereira|
-|Sergio Lima Borges|
-| Yuri Mathhaus Cavalcante Ferreira |
-|Nathalia Daniel da Silva|
